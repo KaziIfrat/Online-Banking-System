@@ -1,0 +1,252 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background:#739C84;
+	background_repeat: no-repeat;
+}
+.header img{
+	
+	width: 100%;
+	height: 150px;
+}
+.customer_body{
+	margin-left:25%;
+    margin-top:3%;
+	padding-top:1%;
+	padding-left:3%;
+	padding-bottom:1%;
+    float:left;
+    border:1px solid #1A3922;
+    border-radius:4px;
+	color:#fff;
+    background-color: rgba(5,108,33,0.6);
+    width: 350px;
+	height: 350px;
+	font-size:19px;
+	text-align: left;
+}
+.text{
+	margin-left:42%;
+	font-size:30px;
+	font-weight:bold;
+}
+.admin_bar{
+   	margin-left:2%;
+    float:left;
+    height:450px;
+    width:200px;
+    border:1px solid #1A3922;
+    border-radius:5px;
+    background-color: rgba(5,108,33,0.6);
+}
+.customer_bar{
+   	margin-left:2%;
+    float:left;
+    height:450px;
+    width:200px;
+    border:1px solid #1A3922;
+    border-radius:5px;
+    background-color:rgba(5,108,33,0.6);
+}
+.admin_bar li{    
+    font-size:20px;
+	text-align:left;
+    padding-top:20px;
+	list-style-type:none;
+}
+.customer_bar li{    
+    font-size:20px;
+	text-align:left;
+    padding-top:20px;
+	list-style-type:none;
+}
+.admin_home{
+    margin-left:25%;
+    margin-top:8%;
+	padding-top:25px;
+    float:left;
+    height:250px;
+    width:250px;
+    border:1px solid #1A3922;
+    border-radius:5px;
+    background-color: rgba(5,108,33,0.6);
+}
+.admin_home li{
+    font-size:20px;
+	text-align:left;
+    padding-top:20px;
+	padding-left:20px;
+	list-style-type:none;
+}
+.customer_home{
+	margin-left:25%;
+    margin-top:10%;
+	padding-top:25px;
+    float:left;
+    border:1px solid #1A3922;
+    border-radius:4px;
+	color:#fff;
+    background-color: rgba(5,108,33,0.6);
+    height:250px;
+    width:250px;
+
+}
+.customer_home li{
+    font-size:20px;
+	text-align:left;
+    padding-top:20px;
+	padding-left:20px;
+	list-style-type:none;
+}
+
+.addcustomer {
+	margin-left:20%;
+	padding-top:15px;
+    float:left;
+    width: 400px;
+	height: 430px;
+    border:1px solid #1A3922;
+    border-radius:4px;
+	color:#fff;
+    background-color: rgba(5,108,33,0.6); 
+}
+.addcustomer td{
+    padding:4px;
+}
+a{
+    text-decoration:none;
+}
+a:link,a:visited {
+    color:white;
+}
+a:hover {
+    font-weight:bold;
+	color:#0814F0;
+}
+.admin{
+	margin:0%;
+}
+.change_pw{
+    margin-left:20%;
+    margin-top:10%;
+    float:left;
+    height:220px;
+    width:400px;
+    border:1px solid #1A3922;
+    border-radius:5px;
+    background-color: rgba(5,108,33,0.6);
+}
+
+.change_pw td{
+    font-size:17px;
+    padding-top:25px;
+ 
+}
+.change_pwc{
+    margin-left:20%;
+    margin-top:10%;
+    float:left;
+    height:220px;
+    width:400px;
+    border:1px solid #1A3922;
+    border-radius:5px;
+    background-color: rgba(5,108,33,0.6);  
+}
+
+.change_pwc td{
+    font-size:17px;
+    padding-top:25px;
+ 
+}
+.displaystaff_content{
+	margin-left:15%;
+    margin-top:4%;
+	float:left;
+    height:400px;
+    width:500px;
+    border:1px solid #1A3922;
+    border-radius:4px;
+    background-color: rgba(5,108,33,0.6);
+
+}
+.displaystaff_content table{
+    margin-top:30px;
+}
+.forgetpw{
+	margin-left:35%;
+    margin-top:8%;
+    float:left;
+    height:280px;
+    width:400px;
+    border:1px solid #1A3922;
+    border-radius:5px;
+    background-color: rgba(5,108,33,0.6); 
+}
+.forgetpw td{
+    font-size:17px;
+    padding-top:25px;
+ 
+}
+.forget{
+	margin-left:35%;
+    margin-top:9%;
+    float:left;
+    height:200px;
+    width:400px;
+    border:1px solid #1A3922;
+    border-radius:5px;
+    background-color: rgba(5,108,33,0.6);
+}
+.forget td{
+    font-size:17px;
+    padding-top:25px;
+ 
+}
+.editcustomer {
+	margin-left:20%;
+    margin-top:8%;
+	padding-top:25px;
+    float:left;
+    width: 400px;
+	height: 300px;
+    border:1px solid #1A3922;
+    border-radius:4px;
+	color:#fff;
+    background-color: rgba(5,108,33,0.6); 
+}
+.editcustomer td{
+    padding:5px;
+}
+.lastlogin{
+    margin-top:100%;
+	margin-left:1050px;
+	padding-top:7px;
+	padding-left:5px;
+    float:left;
+    width: 230px;
+	height: 25px;
+    border:1px solid #1A3922;
+    border-radius:4px;
+	color:#fff;
+    background-color: rgba(5,108,33,0.6); 
+}
+.lastlogin p{
+    padding-left:5px;
+}
+.transfer{
+    margin-left:20%;
+    margin-top:10%;
+    float:left;
+    height:250px;
+    width:400px;
+    border:1px solid #1A3922;
+    border-radius:5px;
+    background-color: rgba(5,108,33,0.6);
+}
+
+.transfer td{
+    font-size:17px;
+    padding-top:25px;
+ 
+}
